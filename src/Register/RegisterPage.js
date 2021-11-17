@@ -107,8 +107,8 @@ class RegisterPage extends React.Component {
     <a class="dropdown-item" value="usa"  checked={this.state.selectedOption === "usa"} onChange={this.onValueChange}>USA</a>
     <a class="dropdown-item" value="chile"  checked={this.state.selectedOption === "chile" } onChange={this.onValueChange}>Chile</a>
     <a class="dropdown-item" value="china"  checked={this.state.selectedOption === "china"} onChange={this.onValueChange}>China</a>
-    <a class="dropdown-item" value="uk"  checked={this.state.selectedOption === "Male" onChange={this.onValueChange}}>UK</a>
-    <a class="dropdown-item" value="australia"  checked={this.state.selectedOption === "Male" onChange={this.onValueChange}}>Australia</a>
+    <a class="dropdown-item" value="uk"  checked={this.state.selectedOption === "uk" onChange={this.onValueChange}}>UK</a>
+    <a class="dropdown-item" value="australia"  checked={this.state.selectedOption === "australia" onChange={this.onValueChange}}>Australia</a>
   </div>
 </div>
                 </form>
